@@ -287,59 +287,9 @@ do
 
         case "3":
             // Ensure animal ages and physical descriptions are complete
-            for (int i = 0; i < maxPets; i++)
-            {
-                // 
-                if (ourAnimals[i, 0] != "ID #: ")
-                {
-                    if (ourAnimals[i, 2].Contains("?"))
-                    {
-                        bool validAge = false;
-
-                        do
-                        {
-                            Console.WriteLine($"Please enter a valid age for {ourAnimals[i, 0]}:");
-                            readResult = Console.ReadLine();
-
-                            if (int.TryParse(readResult, out petAge))
-                            {
-                                ourAnimals[i, 2] = "Age: " + petAge;
-                                validAge = true;
-                            }
-                            else
-                            {
-                                Console.WriteLine("Invalid input. Age must be a number.");
-                            }
-
-                        } while (!validAge);
-                    }
-                    if (ourAnimals[i, 4].Contains("tbd") || ourAnimals[i, 4].EndsWith(": "))
-                    {
-                        bool validDesc = false;
-
-                        do
-                        {
-                            Console.WriteLine($"Enter physical description for {ourAnimals[i, 0]}:");
-                            readResult = Console.ReadLine();
-
-                            if (!string.IsNullOrWhiteSpace(readResult))
-                            {
-                                ourAnimals[i, 4] = "Physical description: " + readResult.ToLower();
-                                validDesc = true;
-                            }
-                            else
-                            {
-                                Console.WriteLine("Description cannot be empty.");
-                            }
-
-                        } while (!validDesc);
-                    }
-                }
-
-            }
-Console.WriteLine("Age and physical description fields are complete for all of our friends.");
-Console.WriteLine("Press the Enter key to continue.");
-readResult = Console.ReadLine();
+            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
             break;
 
         case "4":
@@ -362,7 +312,7 @@ readResult = Console.ReadLine();
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
-
+        
         case "7":
             // Display all cats with a specified characteristic
             Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
