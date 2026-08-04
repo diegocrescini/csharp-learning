@@ -13,7 +13,7 @@ while (!int.TryParse(input, out num1))
 Console.WriteLine("Please input operator:");
 input = Console.ReadLine();
 string operatorSign;
-while(input != "+" && input != "-" && input != "/" && input != "*")
+while (input != "+" && input != "-" && input != "/" && input != "*")
 {
     Console.WriteLine("Wrong operator, please input +, -, / or *:");
     input = Console.ReadLine();
@@ -49,7 +49,7 @@ switch (operatorSign)
         result = num1 * num2;
         break;
     default:
-    throw new Exception("Invalid operator");
+        throw new Exception("Invalid operator");
 }
 
 Console.WriteLine($"Result is {result}");
