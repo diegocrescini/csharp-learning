@@ -9,7 +9,7 @@ decimal gbp = 0.74m;
 string exchangeCurrency;
 decimal exchangeAmount;
 string desiredCurrency;
-decimal amountReceived = 0m;
+decimal finalCurrency = 0m;
 
 // Ask for exchange currency
 Console.WriteLine("Please select the currency you want to exchange: \n1. Dollar (USD)\n2. Peso (ARS)\n3. Euro (EUR)\n4. Yen (JPY)\n5. British Pound (GBP)");
@@ -62,7 +62,7 @@ decimal currencyConvertedToDollar = exchangeCurrency switch
 
 // Calculate other currency equivalent
 
-decimal finalCurrency = desiredCurrency switch
+finalCurrency = desiredCurrency switch
 {
     "1" => currencyConvertedToDollar * usd, 
     "2" => currencyConvertedToDollar * ars,
