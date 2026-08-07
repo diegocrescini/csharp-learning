@@ -7,9 +7,9 @@
  - [x] 6. The C# Type System
  - [x] 7. Basic Math
  - [x] 8. User Input
- - [ ] 9. More Math
- - [ ] 10. Decision Making
- - [ ] 11. Switch Statements
+ - [x] 9. More Math
+ - [x] 10. Decision Making
+ - [x] 11. Switch Statements
  - [ ] 12. Looping
  - [ ] 13. Arrays
  - [ ] 14. Enumerations
