@@ -10,8 +10,8 @@
  - [x] 9. More Math
  - [x] 10. Decision Making
  - [x] 11. Switch Statements
- - [ ] 12. Looping
- - [ ] 13. Arrays
+ - [x] 12. Looping
+ - [x] 13. Arrays
  - [ ] 14. Enumerations
  - [ ] 15. Methods
  - [ ] 16. Value and Reference Types
@@ -21,7 +21,7 @@
  - [x] Editor Essentials
  - [x] 3D Essentials
  - [x] Audio Essentials
- - [ ] Programming Essentials
+ - [x] Programming Essentials
  - [ ] 2D Essentials
  - [ ] Publishing Essentials
 
