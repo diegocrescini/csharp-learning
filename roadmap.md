@@ -1,3 +1,5 @@
+Ver 2026-08-11
+
 #UNIT 1 - Fundamentals
 --
 
@@ -12,7 +14,7 @@
  - [x] 11. Switch Statements
  - [x] 12. Looping
  - [x] 13. Arrays
- - [ ] 14. Enumerations
+ - [x] 14. Enumerations
  - [ ] 15. Methods
  - [ ] 16. Value and Reference Types
 
@@ -93,6 +95,13 @@
 
  **Prototypes**
 - [ ] Inventory + Shop
+- [ ] Retro FPS Prototype (Quake/Doom style)
+    - [ ] Phase 1: Retro Movement (First-person controller, Mouse Look, Jump, Gravity)
+    - [ ] Phase 2: Shooting Mechanics (Weapon switching, Hitscan for Shotgun, Raycasting)
+    - [ ] Phase 3: Projectiles & Physics (Rocket Launcher, Instantiating Prefabs, Explosive Physics)
+    - [ ] Phase 4: Enemy Logic (Basic AI: Chase player, Take Damage, Enemy Death)
+    - [ ] Phase 5: Game Loop & HUD (Player Health/Armor, Ammo Counter, Respawn/Game Over)
+    - [ ] Phase 6: Level Mechanics (Keys, Doors, Health Packs/Ammo pickups)
 
 **Pathway: Junior Programmer**
 
