@@ -3,34 +3,30 @@ Ver 2026-08-11
 #UNIT 1 - Fundamentals
 --
 
-**The C# Player's Guide Part 2 The Basics**
-
- - [x] 5. Variables
- - [x] 6. The C# Type System
- - [x] 7. Basic Math
- - [x] 8. User Input
- - [x] 9. More Math
- - [x] 10. Decision Making
- - [x] 11. Switch Statements
- - [x] 12. Looping
- - [x] 13. Arrays
- - [x] 14. Enumerations
- - [ ] 15. Methods
- - [ ] 16. Value and Reference Types
-
 **Pathway: Unity Essentials**
 
  - [x] Editor Essentials
  - [x] 3D Essentials
  - [x] Audio Essentials
  - [x] Programming Essentials
- - [ ] 2D Essentials
+ - [x] 2D Essentials
  - [ ] Publishing Essentials
 
  **Prototypes**
 
-  - [x] Calculator
-  - [x] Currency Converter
+   - [x] C# Console
+      - [x] Calculator
+      - [x] Currency Converter
+  -  [ ] Top-Down 2D Movement & Interaction Sandbox
+       - [ ] Phase 1: 2D Grid & Tilemaps (Room/Dungeon layout, Colliders)
+       - [ ] Phase 2: Top-Down Movement & Physics (Rigidbody2D, WASD/Arrows, Input System)
+       - [ ] Phase 3: Basic Interaction & Collectibles (Triggers, Pickups, Key/Door logic)
+
+  - [ ] 3D Platformer & Interaction Sandbox (Movement, Jump, Crates & Collectibles)
+      - [ ] Phase 1: 3D Blockout & Camera (ProBuilder/Primitives Arena, Wall Colliders, Third-Person / Free-Look Camera)
+      - [ ] Phase 2: Player Controller & 3D Physics (Rigidbody, CharacterController / WASD, Slope Handling, 3D Jump & Gravity)
+      - [ ] Phase 3: Interactive 3D Objects (Movable Crates, Jumping on Platforms, Rigidbodies & Layers)
+      - [ ] Phase 4: Collectibles & Game Mechanics (3D Triggers, Gems/Coins Pickup, Key & Door Logic, Basic UI Counter)
 
 #UNIT 2 - Basic C# + logic
 --
@@ -67,7 +63,7 @@ Ver 2026-08-11
 
  **Prototypes**
 
-  - [ ] Rock, paper, scissors
+  - [ ] 🎯 Rock, paper, scissors
   
 #UNIT 3 - OOP + Unity Programming 
 --
@@ -82,7 +78,7 @@ Ver 2026-08-11
 
 **The C# Player's Guide Part 3 Object Oriented Programming**
 
- - [ ] 17. Object-Oriented Basics
+ - [x] 17. Object-Oriented Basics
  - [ ] 18. Making Your Own Classes
  - [ ] 19. Properties
  - [ ] 20. Tic-Tac-Toe
@@ -93,33 +89,40 @@ Ver 2026-08-11
  - [ ] 25. Using Generics
  - [ ] 26. Making Generic Types
 
- **Prototypes**
-- [ ] Inventory + Shop
-- [ ] Retro FPS Prototype (Quake/Doom style)
+
+**Pathway: Junior Programmer**
+
+ - [ ] Create with Code 1
+  - [ ] Player Control
+    - [ ] 🎯 Prototype: Obstacle Course / Vehicle Movement
+  - [ ] Basic Gameplay
+    - [ ] 🎯 Prototype: Target Shooter (Prefabs + Spawner)
+ - [ ] Create with Code 2
+  - [ ] Gameplay Mechanics
+    - [ ] 🎯 Prototype: Survival Wave Arena (AI + Powerups)
+  - [ ] User Interface
+    - [ ] 🎯 Prototype: Clicker Challenge (Canvas + Game Loop)
+ - [ ] Programming Theory
+  - [ ] Manage Scene Flow and Data
+    - [ ] 🎯 Prototype: Scene Switcher & Data Persistence
+  - [ ] Object-Oriented Programming principles
+    - [ ] 🎯 Prototipo Práctico OOP: Inventory + Shop (Consola C#)
+ - [ ] Prototype / Production topics
+  - [ ] Version Control
+  - [ ] Debugging
+    - [ ] 🎯 Prototype: Git Branching & Bug Fix Test Project
+  - [ ] Optimization
+  - [ ] Project Management
+  - [ ] Job Preparation
+    - [ ] 🎯 Prototype: WebGL/Standalone Build + Clean Repo
+
+- [ ] 🎯 Retro FPS Prototype (Quake/Doom style)
     - [ ] Phase 1: Retro Movement (First-person controller, Mouse Look, Jump, Gravity)
     - [ ] Phase 2: Shooting Mechanics (Weapon switching, Hitscan for Shotgun, Raycasting)
     - [ ] Phase 3: Projectiles & Physics (Rocket Launcher, Instantiating Prefabs, Explosive Physics)
     - [ ] Phase 4: Enemy Logic (Basic AI: Chase player, Take Damage, Enemy Death)
     - [ ] Phase 5: Game Loop & HUD (Player Health/Armor, Ammo Counter, Respawn/Game Over)
     - [ ] Phase 6: Level Mechanics (Keys, Doors, Health Packs/Ammo pickups)
-
-**Pathway: Junior Programmer**
-
- - [ ] Create with Code 1
- - [ ] Player Control
- - [ ] Basic Gameplay
- - [ ] Create with Code 2
- - [ ] Gameplay Mechanics
- - [ ] User Interface
- - [ ] Programming Theory
- - [ ] Manage Scene Flow and Data
- - [ ] Object-Oriented Programming principles
- - [ ] Prototype / Production topics
- - [ ] Version Control
- - [ ] Debugging
- - [ ] Optimization
- - [ ] Project Management
- - [ ] Job Preparation
 
 #UNIT 4 - Advanced C# + tooling
 --
@@ -325,3 +328,18 @@ Ver 2026-08-11
  - [x] 2. Installing Visual Studio
  - [x] 3. Hello World: Your First C# Program
  - [x] 4. Comments
+
+ **The C# Player's Guide Part 2 The Basics**
+
+ - [x] 5. Variables
+ - [x] 6. The C# Type System
+ - [x] 7. Basic Math
+ - [x] 8. User Input
+ - [x] 9. More Math
+ - [x] 10. Decision Making
+ - [x] 11. Switch Statements
+ - [x] 12. Looping
+ - [x] 13. Arrays
+ - [x] 14. Enumerations
+ - [x] 15. Methods
+ - [x] 16. Value and Reference Types
