@@ -16,7 +16,7 @@ The program must loop the whole "game" until the user types "exit" or "quit"
 
 */
 
-string? userInput = "";
+string? userInput;
 Random dice = new Random();
 int totalRoll;
 bool exitLoop = false;

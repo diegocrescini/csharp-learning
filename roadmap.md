@@ -3,30 +3,76 @@ Ver 2026-08-11
 #UNIT 1 - Fundamentals
 --
 
-**Pathway: Unity Essentials**
-
- - [x] Editor Essentials
- - [x] 3D Essentials
- - [x] Audio Essentials
- - [x] Programming Essentials
- - [x] 2D Essentials
- - [ ] Publishing Essentials
-
  **Prototypes**
 
    - [x] C# Console
       - [x] Calculator
       - [x] Currency Converter
-  -  [ ] Top-Down 2D Movement & Interaction Sandbox
-       - [ ] Phase 1: 2D Grid & Tilemaps (Room/Dungeon layout, Colliders)
-       - [ ] Phase 2: Top-Down Movement & Physics (Rigidbody2D, WASD/Arrows, Input System)
-       - [ ] Phase 3: Basic Interaction & Collectibles (Triggers, Pickups, Key/Door logic)
 
-  - [ ] 3D Platformer & Interaction Sandbox (Movement, Jump, Crates & Collectibles)
-      - [ ] Phase 1: 3D Blockout & Camera (ProBuilder/Primitives Arena, Wall Colliders, Third-Person / Free-Look Camera)
-      - [ ] Phase 2: Player Controller & 3D Physics (Rigidbody, CharacterController / WASD, Slope Handling, 3D Jump & Gravity)
-      - [ ] Phase 3: Interactive 3D Objects (Movable Crates, Jumping on Platforms, Rigidbodies & Layers)
-      - [ ] Phase 4: Collectibles & Game Mechanics (3D Triggers, Gems/Coins Pickup, Key & Door Logic, Basic UI Counter)
+
+  -  [ ] Top-Down 2D Movement & Interaction Sandbox
+     -  [ ] Phase 1: Project Setup & 2D Level Blockout
+         -  [ ] Create a new 2D project
+         -  [ ] Set up the floor and walls
+         -  [ ] Create a basic room layout using Tilemaps
+         -  [ ] Add colliders to walls and boundaries
+         -  [ ] Build a minimum of 3 connected rooms
+         -  [ ] Organize the Hierarchy window
+     -  [ ] Phase 2: Player Movement & Physics
+         -  [ ] Place the character sprite
+         -  [ ] Add Rigidbody2D and Collider2D
+         -  [ ] Implement four-direction movement
+         -  [ ] Configure WASD / Arrow Key input using the Input System
+         -  [ ] Test movement and collision in all rooms
+     -  [ ] Phase 3: Obstacles & Interaction
+         -  [ ] Place obstacles in the rooms
+         -  [ ] Configure obstacle colliders
+         -  [ ] Create collectible objects
+         -  [ ] Add collectible triggers
+         -  [ ] Track collected items
+     -  [ ] Phase 4: Collectible-Gated Doors & Game Loop
+         -  [ ] Place a door between each room
+         -  [ ] Prevent doors from opening until all collectibles in the current room are collected
+         -  [ ] Open the door when the room's collectibles are complete
+         -  [ ] Test the complete 3-room progression
+         -  [ ] Clean up the Hierarchy window and scene organization
+         -  [ ] Final playthrough and bug fixing
+
+  -  [ ] 3D Platformer & Interaction Sandbox (Movement, Jump, Crates & Collectibles)
+     -  [ ] Phase 1: Project Setup & 3D Blockout
+         -  [ ] Create a new 3D project
+         -  [ ] Set up the floor and arena boundaries
+         -  [ ] Create the level using primitives / ProBuilder
+         -  [ ] Add wall and floor colliders
+         -  [ ] Create platforms and elevated areas
+         -  [ ] Place obstacles
+         -  [ ] Organize the Hierarchy window
+     -  [ ] Phase 2: Player Controller & 3D Physics
+         -  [ ] Place the player character
+         -  [ ] Add Rigidbody and Collider
+         -  [ ] Implement WASD movement
+         -  [ ] Implement gravity
+         -  [ ] Implement jumping
+         -  [ ] Configure third-person / free-look camera
+         -  [ ] Handle basic slopes and ground detection
+         -  [ ] Test movement, jumping and collisions
+     -  [ ] Phase 3: Interactive 3D Objects
+         -  [ ] Create movable crates
+         -  [ ] Add Rigidbody and Collider components to crates
+         -  [ ] Configure physics layers
+         -  [ ] Push crates using the player
+         -  [ ] Create platforms that require jumping
+         -  [ ] Test player-object physics interactions
+     -  [ ] Phase 4: Collectibles & Game Mechanics
+         -  [ ] Place gems / coins throughout the level
+         -  [ ] Add 3D trigger zones
+         -  [ ] Implement collectible pickups
+         -  [ ] Track collected items
+         -  [ ] Create a key and locked door
+         -  [ ] Unlock the door using the key / collectible requirement
+         -  [ ] Add a basic UI counter
+         -  [ ] Clean up the Hierarchy window and scene organization
+         -  [ ] Final playthrough and bug fixing
 
 #UNIT 2 - Basic C# + logic
 --
@@ -79,7 +125,7 @@ Ver 2026-08-11
 **The C# Player's Guide Part 3 Object Oriented Programming**
 
  - [x] 17. Object-Oriented Basics
- - [ ] 18. Making Your Own Classes
+ - [x] 18. Making Your Own Classes
  - [ ] 19. Properties
  - [ ] 20. Tic-Tac-Toe
  - [ ] 21. Structs
@@ -343,3 +389,12 @@ Ver 2026-08-11
  - [x] 14. Enumerations
  - [x] 15. Methods
  - [x] 16. Value and Reference Types
+
+ **Pathway: Unity Essentials**
+
+ - [x] Editor Essentials
+ - [x] 3D Essentials
+ - [x] Audio Essentials
+ - [x] Programming Essentials
+ - [x] 2D Essentials
+ - [x] Publishing Essentials
